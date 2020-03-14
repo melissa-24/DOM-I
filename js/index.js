@@ -105,8 +105,8 @@ myButton.setAttribute("onclick", "changeH1()");
 cta.querySelector("button").after(myButton);
 
 function changeH1() {
-  if(cta.querySelector("h1").innerText != "Melissa was Here") {
-    cta.querySelector("h1").innerText = "Melissa was Here";
+  if(cta.querySelector("h1").innerText != "Melissa was Here!") {
+    cta.querySelector("h1").innerText = "Melissa was Here!";
   } else {
     cta.querySelector("h1").innerText = siteContent["cta"]["h1"];
   }
