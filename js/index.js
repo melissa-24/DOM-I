@@ -71,7 +71,7 @@ nav.prepend(newLink2);
 const navLinks = nav.querySelectorAll("a");
 
 document.querySelector("header").setAttribute("style", 
-                                "background: dodgerblue;" + 
+                                "background: grey;" + 
                                 "position: fixed; top: 0;" + 
                                 "left: 0;" + 
                                 "width: 100%;" + 
@@ -105,8 +105,8 @@ myButton.setAttribute("onclick", "changeH1()");
 cta.querySelector("button").after(myButton);
 
 function changeH1() {
-  if(cta.querySelector("h1").innerText != "I\nAm\nAwesome") {
-    cta.querySelector("h1").innerText = "I\nAm\nAwesome";
+  if(cta.querySelector("h1").innerText != "Melissa was Here") {
+    cta.querySelector("h1").innerText = "Melissa was Here";
   } else {
     cta.querySelector("h1").innerText = siteContent["cta"]["h1"];
   }
